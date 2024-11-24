@@ -1,4 +1,4 @@
-public class Parrot extends Mammal {
+public class Parrot extends Bird implements Prey {
     public Parrot(String name, int age, String attributes, double heightOfFlight) {
         super(name, age, attributes, heightOfFlight);
     }

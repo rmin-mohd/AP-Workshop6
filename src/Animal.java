@@ -9,6 +9,10 @@ public abstract class Animal {
        this.attributes = attributes;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
     public void show(){
         System.out.println("Name: " + name + ", age: " + age +   " \"" + attributes  + "\"");
     }

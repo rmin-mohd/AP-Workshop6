@@ -6,13 +6,11 @@ public abstract class Bird extends Animal {
         this.heightOfFlight = heightOfFlight;
     }
 
-    public double getHeightOfFlight() {
-        return heightOfFlight;
+    public void show() {
+        System.out.println("Name: " + name + ", Age: " + age + ", Height of fly: " + heightOfFlight + " \"" + attributes + "\"");
     }
 
-    public void setHeightOfFlight(double heightOfFlight) {
-        if (heightOfFlight > 0){
-            this.heightOfFlight = heightOfFlight;
-        }
+    public String toString() {
+        return super.toString() + "\nHeight of Flight: " + this.heightOfFlight;
     }
 }

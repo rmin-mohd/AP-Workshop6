@@ -6,4 +6,9 @@ public class Cheetah extends Mammal {
     public String toString() {
         return super.toString();
     }
+
+    public void hunt(Prey prey){
+        Animal animal = (Animal) prey;
+        System.out.println(name + "hunted" + animal.getName());
+    }
 }

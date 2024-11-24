@@ -7,7 +7,7 @@ public abstract class Mammal extends Animal {
     }
 
     public void show(){
-        System.out.print("\nName: " + name + ", age: " + age + ", speed: " + speed + " \"" + attributes + "\"");
+        System.out.print("Name: " + name + ", age: " + age + ", speed: " + speed + " \"" + attributes + "\"");
     }
 
     public String toString(){

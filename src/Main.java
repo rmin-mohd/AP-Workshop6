@@ -23,6 +23,15 @@ public class Main {
         }
 
         System.out.println();
+
+        Eagle eagle = (Eagle) animals.get(1);
+        Parrot parrot = (Parrot) animals.get(0);
+        Cheetah cheetah = (Cheetah) animals.get(3);
+        Giraffe giraffe = (Giraffe) animals.get(2);
+
+        eagle.hunt(parrot);
+        cheetah.hunt(giraffe);
+
         scanner.close();
 
     }
